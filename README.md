@@ -1,6 +1,10 @@
-# react-native-animate-number [![npm version](https://badge.fury.io/js/react-native-animate-number.svg)](https://badge.fury.io/js/react-native-animate-number) [![circle CI](https://circleci.com/gh/wkh237/react-native-animate-number/tree/master.svg?style=shield&circle-token=3c65a007e3c5da40a3d6be4060c64c4d361d2c9f)](https://circleci.com/gh/wkh237/react-native-animate-number/)
+# react-native-animate-number-renewed [![npm version](https://badge.fury.io/js/react-native-animate-number.svg)](https://badge.fury.io/js/react-native-animate-number) [![circle CI](https://circleci.com/gh/wkh237/react-native-animate-number/tree/master.svg?style=shield&circle-token=3c65a007e3c5da40a3d6be4060c64c4d361d2c9f)](https://circleci.com/gh/wkh237/react-native-animate-number/)
 
 Customizable react native component for number animations.
+
+> This is a fork of the [original project](https://github.com/wkh237/react-native-animate-number).
+> 
+> The original project is dead with several improvements not merged. Additionally, the master branch has features not properly published in NPM like the ```startAt``` and ```initialValue``` props.
 
 <img src="./img/animate-number-preview.gif" width="256">
 
@@ -142,4 +146,8 @@ A function that triggers when text state has updated.
 
 #### `onFinish: () => void`(optional)
 
-A function that triggers when animation completes.
+#### `startAt: number`(optional, default to `0`)
+
+Timeout in milliseconds to start animation after.
+
+#### `initialValue: number`(optional, default to `0`)
