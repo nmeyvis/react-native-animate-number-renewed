@@ -89,7 +89,7 @@ export default class AnimateNumber extends Component {
       , this.props.startAt != null ? this.props.startAt : 0);
   }
 
-  componentWillUpdate(nextProps, nextState) {
+  UNSAFE_componentWillUpdate(nextProps, nextState) {
 
     // check if start an animation
     if(this.props.value !== nextProps.value) {
