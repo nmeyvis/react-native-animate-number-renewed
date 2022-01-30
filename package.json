@@ -57,7 +57,7 @@
     "react-native": "0.25.1",
     "react-native-mock": "^0.1.0"
   },
-	"repository": {
-		"url": "https://github.com/nmeyvis/react-native-animate-number-renewed.git"
-	}
+  "repository": {
+    "url": "https://github.com/nmeyvis/react-native-animate-number-renewed.git"
+  }
 }
