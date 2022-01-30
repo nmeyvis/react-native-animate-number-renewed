@@ -18,13 +18,13 @@ Customizable react native component for number animations.
 ## Installation
 
 ```shell
-$ npm install react-native-animate-number
+$ npm install react-native-animate-number-renewed
 ```
 
 ## Usage
 
 ```jsx
-import AnimateNumber from 'react-native-animate-number'
+import AnimateNumber from 'react-native-animate-number-renewed'
 ```
 
 ## Examples
