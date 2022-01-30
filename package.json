@@ -1,12 +1,12 @@
 {
-  "name": "react-native-animate-number",
-  "version": "0.1.2",
-  "description": "",
+  "name": "react-native-animate-number-renewed",
+  "version": "1.0.0",
+  "description": "Customizable react native component for number animations",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -t 5000 --require react-native-mock/mock --compilers js:babel-core/register --recursive test/*.js"
   },
-  "author": "wkh237",
+  "author": "nmeyvis",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-syntax-async-functions": "^6.8.0",
@@ -58,6 +58,6 @@
     "react-native-mock": "^0.1.0"
   },
 	"repository": {
-		"url": "https://github.com/wkh237/react-native-animate-number.git"
+		"url": "https://github.com/nmeyvis/react-native-animate-number-renewed.git"
 	}
 }
